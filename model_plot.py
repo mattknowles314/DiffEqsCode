@@ -30,13 +30,13 @@ def makePlot():
     plt.show()
 
 t = np.linspace(start=1, stop=100, num=100)
-T0 = 50
-I0 = 0
+T0 = 1
+I0 = 1
 V0 = 1
-N = 10
-mu_T = 2
-mu_I = 5
-mu_V = 3
+N = 0.7
+mu_T = 0.2
+mu_I = -0.1
+mu_V = 0.3
 k = 0.5
 l = 10
 
